@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- NuGet 包元数据 -->
+    <PackageId>YP.TimedJob</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Your Name</Authors>
+    <Company>Your Company</Company>
+    <Description>轻量级的 .NET 定时任务框架，支持同步和异步任务、灵活的时间配置和错误处理，适用于 ASP.NET Core、WinForm、控制台等多种 .NET 项目类型</Description>
+    <Copyright>© 2026 Your Company</Copyright>
+    <PackageTags>timedjob scheduler cron task aspnetcore winform console</PackageTags>
+    <PackageProjectUrl>https://github.com/yourusername/YP.TimedJob</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yourusername/YP.TimedJob</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
